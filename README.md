@@ -1,9 +1,9 @@
 # Mixed-Messages
 
-This project is a message generator program.
+This project is a random dry joke generator program.
 
-### How to use it?
-Every time a user runs a program, they should get a **new**, randomized output.  
+### Expected output
+Every time a user runs a program, they should get a **new**, randomized joke.  
 
 Objectives:
 - [ ] Build a message generator program using JavaScript
