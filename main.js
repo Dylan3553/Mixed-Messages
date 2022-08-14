@@ -3,15 +3,20 @@ const subject = ["cow", "cat", "aligator", "person", "gorilla", "shovel", "diamo
 const verb = ["draw", "poop", "kill", "observe", "dig", "shine", "coat", "dance"]
 
 
-const beginnigOfJoke = ["why did the"]
-const endOfJoke = ["cross the road? bacause it"]
+const beginnigOfJoke = ["why did the "]
+const endOfJoke = [" cross the road? bacause it "]
 
 
 
 
 // function that randomly generates a Number
+const randGenerator = () => {
+    randSubj = subject[Math.floor(Math.random()*subject.length)]
+    randVerb = verb[Math.floor(Math.random()*verb.length)]
 
-
+    console.log(beginnigOfJoke[0]+randSubj+endOfJoke[0]+randVerb+" a gorrila")
+} 
+randGenerator()
 // articulate jokes so that it forms a coherent joke
 
 
